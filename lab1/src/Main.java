@@ -83,6 +83,9 @@ public class Main {
 
         //Generating words array
 
+        //Bonus Exemple
+        //n=8;
+        //String[] words = {"AT", "AM", "MA", "AT", "AC", "CC", "CM", "MA"};
         String[] words = new String[n];
 
         for(int i=0;i<n;i++){
@@ -147,6 +150,7 @@ public class Main {
     public static void Bonus(int n, boolean[][] neighbors, String[] words){
         Integer[] lmax = new Integer[n];
         Boolean[] finished = new Boolean[n];
+        int max=-1,imax=-1;
         lmax[0]=1;
         finished[0]=false;
         for(int i=1;i<n;i++){
@@ -154,6 +158,10 @@ public class Main {
             finished[i]=false;
             for(int j=0;j<i;j++){
                 if(finished[j]==false){
+                    if(words[j]==words[i] && max<lmax[j]){
+                        max=lmax[j];
+                        imax=j;
+                    }
                     if(neighbors[i-1][i]==true){
                         lmax[j]++;
                     }else{
@@ -163,21 +171,13 @@ public class Main {
             }
         }
 
-        int max=-1,imax=-1;
-        for(int i=0;i<n;i++){
-            if(lmax[i]>max){
-                max=lmax[i];
-                imax=i;
-            }
-        }
-
-        if(max>3){
+        if(max>2){
             System.out.println("\n\nFound subset of length " + max + " from index " + imax + ":");
             for(int i=0;i<max;i++){
                 System.out.print(words[imax+i] + " ");
             }
         }else{
-            System.out.println("\n\nSubset longer than 3 not found");
+            System.out.println("\n\nSubset longer than 2 not found");
         }
     }
 
