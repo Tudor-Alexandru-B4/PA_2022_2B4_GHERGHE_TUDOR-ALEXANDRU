@@ -139,14 +139,51 @@ public class Main {
 
         //cd C:\Users\tudor\PA_2022_2B4_GHERGHE_TUDOR-ALEXANDRU\lab1\src
         //java Main.java 100 7 A C G T
+
+        Bonus(n,neighbors,words);
+
     }
 
-    public static void Bonus(){
-        //TO DO
+    public static void Bonus(int n, boolean[][] neighbors, String[] words){
+        Integer[] lmax = new Integer[n];
+        Boolean[] finished = new Boolean[n];
+        lmax[0]=1;
+        finished[0]=false;
+        for(int i=1;i<n;i++){
+            lmax[i]=1;
+            finished[i]=false;
+            for(int j=0;j<i;j++){
+                if(finished[j]==false){
+                    if(neighbors[i-1][i]==true){
+                        lmax[j]++;
+                    }else{
+                        finished[j]=true;
+                    }
+                }
+            }
+        }
+
+        int max=-1,imax=-1;
+        for(int i=0;i<n;i++){
+            if(lmax[i]>max){
+                max=lmax[i];
+                imax=i;
+            }
+        }
+
+        if(max>3){
+            System.out.println("\n\nFound subset of length " + max + " from index " + imax + ":");
+            for(int i=0;i<max;i++){
+                System.out.print(words[imax+i] + " ");
+            }
+        }else{
+            System.out.println("\n\nSubset longer than 3 not found");
+        }
     }
 
     public static void main(String[] args) {
         Compulsory();
         Homework(args);
+        //Bonus - is called from the Homework method
     }
 }
