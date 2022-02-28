@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Main {
+
     public static void compulsory(){
         System.out.println("\n\nHello World!");
         String[] languages=new String[] {"C", "C++", "C#", "Python", "Go", "Rust", "JavaScript", "PHP", "Swift", "Java"};
@@ -75,7 +76,7 @@ public class Main {
 
         //Generating words array
 
-        //Bonus Exemple
+        //Bonus Example
         //n=8;
         //String[] words = {"AT", "AM", "MA", "AT", "AC", "CC", "CM", "MA"};
         String[] words = new String[n];
@@ -145,12 +146,12 @@ public class Main {
             lmax[i] = 1;
             finished[i] = false;
             for(int j = 0; j < i; j++){
-                if(finished[j] == false){
+                if(!finished[j]){
                     if(words[j] == words[i] && max < lmax[j]){
                         max = lmax[j];
                         imax = j;
                     }
-                    if(generatingNeighbors[i-1][i] == true){
+                    if(generatingNeighbors[i - 1][i]){
                         lmax[j]++;
                     }else{
                         finished[j] = true;
