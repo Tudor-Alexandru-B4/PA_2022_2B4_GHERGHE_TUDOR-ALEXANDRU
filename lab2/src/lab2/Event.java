@@ -1,38 +1,38 @@
 package lab2;
 
+import java.util.Objects;
+import java.time.LocalTime;
+
+import static java.lang.System.*;
+
 public class Event {
     private String name;
     private int noParticipants;
-    private int startTime;
-    private int endTime;
+    private LocalTime startTime;
+    private LocalTime endTime;
 
-    public Event(String inputName, int inputParticipants, int inputStartTime, int inputEndTime){
+    public Event(String inputName, int inputParticipants, LocalTime inputStartTime, LocalTime inputEndTime){
         if(inputName != null && inputName.length() > 0){
             name = inputName;
         }else{
-            System.err.println("Name cannot be NULL");
-            System.exit(1);
+            err.println("Name cannot be NULL");
+            exit(1);
         }
 
         if(inputParticipants > 0) {
             noParticipants = inputParticipants;
         }else{
-            System.err.println("Event cannot have less than 1 participant");
-            System.exit(1);
+            err.println("Event cannot have less than 1 participant");
+            exit(1);
         }
 
-        if(inputStartTime > 0 && inputStartTime < 25) {
-            startTime = inputStartTime;
-        }else{
-            System.err.println("Start time invalid");
-            System.exit(1);
-        }
+        startTime = inputStartTime;
 
-        if(inputEndTime > 0 && inputEndTime < 25 && inputEndTime > startTime) {
+        if(inputEndTime.compareTo(startTime) > 0) {
             endTime = inputEndTime;
         }else{
-            System.err.println("End time invalid");
-            System.exit(1);
+            err.println("End time invalid");
+            exit(1);
         }
     }
 
@@ -44,11 +44,11 @@ public class Event {
         return noParticipants;
     }
 
-    public int getStartTime(){
+    public LocalTime getStartTime(){
         return startTime;
     }
 
-    public int getEndTime(){
+    public LocalTime getEndTime(){
         return endTime;
     }
 
@@ -56,8 +56,8 @@ public class Event {
         if(inputName != null && inputName.length() > 0){
             name = inputName;
         }else{
-            System.err.println("Name cannot be NULL");
-            System.exit(1);
+            err.println("Name cannot be NULL");
+            exit(1);
         }
     }
 
@@ -65,27 +65,17 @@ public class Event {
         if(inputParticipants > 0) {
             noParticipants = inputParticipants;
         }else{
-            System.err.println("Event cannot have less than 1 participant");
-            System.exit(1);
+            err.println("Event cannot have less than 1 participant");
+            exit(1);
         }
     }
 
-    public void setStartTime(int inputStartTime){
-        if(inputStartTime > 0 && inputStartTime < 25) {
-            startTime = inputStartTime;
-        }else{
-            System.err.println("Start time invalid");
-            System.exit(1);
-        }
+    public void setStartTime(LocalTime inputStartTime){
+        startTime = inputStartTime;
     }
 
-    public void setEndTime(int inputEndTime){
-        if(inputEndTime > 0 && inputEndTime < 25 && inputEndTime > startTime) {
-            endTime = inputEndTime;
-        }else{
-            System.err.println("End time invalid");
-            System.exit(1);
-        }
+    public void setEndTime(LocalTime inputEndTime){
+        endTime = inputEndTime;
     }
 
     @Override
@@ -96,5 +86,18 @@ public class Event {
                 ", startTime=" + startTime +
                 ", endTime=" + endTime +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Event event = (Event) o;
+        return noParticipants == event.noParticipants && Objects.equals(name, event.name) && Objects.equals(startTime, event.startTime) && Objects.equals(endTime, event.endTime);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, noParticipants, startTime, endTime);
     }
 }

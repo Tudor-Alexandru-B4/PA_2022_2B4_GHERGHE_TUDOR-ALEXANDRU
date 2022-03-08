@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d85a7fe9-741f-4031-8742-2535adf146a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lab2/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab2/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/out/production/lab1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/out/production/lab1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/lab2/Event.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/lab2/Event.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/lab2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/lab2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/lab2/Room$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/lab2/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/lab2/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lab2/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab2/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +26,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,6 +97,9 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">

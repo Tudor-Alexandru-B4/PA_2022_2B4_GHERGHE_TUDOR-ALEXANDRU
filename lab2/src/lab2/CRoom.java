@@ -4,10 +4,32 @@ import java.util.Objects;
 
 import static java.lang.System.*;
 
-public abstract class Room {
-    protected String name;
-    protected int capacity;
-    protected String type;
+public class CRoom {
+    private String name;
+    private int capacity;
+    private Type type;
+    enum Type{
+        LAB,
+        LECTURE_HALL
+    }
+
+    public CRoom(String inputName, int inputCapacity, String inputType){
+        if(inputName != null && inputName.length() > 0){
+            name = inputName;
+        }else{
+            err.println("Name cannot be NULL");
+            exit(1);
+        }
+
+        if(inputCapacity > 1){
+            capacity = inputCapacity;
+        }else{
+            err.println("Capacity cannot be less than 1");
+            exit(1);
+        }
+
+        type = Type.valueOf(inputType);
+    }
 
     public String getName(){
         return name;
@@ -17,7 +39,7 @@ public abstract class Room {
         return capacity;
     }
 
-    public String getType(){
+    public Type getType(){
         return type;
     }
 
@@ -40,7 +62,7 @@ public abstract class Room {
     }
 
     public void setType(String inputType){
-        type = inputType;
+        type = Type.valueOf(inputType);
     }
 
     @Override
@@ -56,7 +78,7 @@ public abstract class Room {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Room room = (Room) o;
+        CRoom room = (CRoom) o;
         return capacity == room.capacity && Objects.equals(name, room.name) && type == room.type;
     }
 
