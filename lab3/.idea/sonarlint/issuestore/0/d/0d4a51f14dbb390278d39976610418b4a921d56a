@@ -1,2 +1,12 @@
 
+m
+java:S3776\"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(³ûÁ’üÿÿÿÿ
+e
+java:S6201i"JReplace this instanceof check and cast with 'instanceof Computer computer'(¶¤Ú•þÿÿÿÿ
+e
+java:S6201o"JReplace this instanceof check and cast with 'instanceof Computer computer'(§ÿŠÑþÿÿÿÿ
+n
+java:S3776ƒ"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(Ë°¤ßúÿÿÿÿ
+i
+java:S3776·"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(«¸«ö
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õ¾š´ÿÿÿÿÿ
