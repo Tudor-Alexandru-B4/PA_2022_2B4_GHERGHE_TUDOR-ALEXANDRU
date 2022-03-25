@@ -1,6 +1,10 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Street implements Comparable<Street>{
     private String streetName;
     private int streetLength;
+    private final List<Intersection> bound= new ArrayList<>();
 
     public Street(String streetName, int streetLength){
         this.streetName = streetName;
@@ -15,12 +19,20 @@ public class Street implements Comparable<Street>{
         this.streetLength = streetLength;
     }
 
+    public void addBound(Intersection bound){
+        this.bound.add(bound);
+    }
+
     public String getStreetName() {
         return streetName;
     }
 
     public int getStreetLength() {
         return streetLength;
+    }
+
+    public Intersection getBound(int i){
+        return bound.get(i);
     }
 
     @Override

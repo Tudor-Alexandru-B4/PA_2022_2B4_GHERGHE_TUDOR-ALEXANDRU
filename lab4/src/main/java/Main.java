@@ -2,7 +2,6 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.stream.IntStream;
-import java.util.Comparator;
 
 import static java.lang.System.*;
 
@@ -24,6 +23,12 @@ public class Main {
         nodes[7].returnList().addAll(Arrays.asList(edges[10],edges[13],edges[15]));
         nodes[8].returnList().addAll(Arrays.asList(edges[11],edges[12],edges[14],edges[15]));
 
+        for(Intersection it : nodes){
+            for(Street str : it.returnList()){
+                str.addBound(it);
+            }
+        }
+
         LinkedList<Street> streetList = new LinkedList<>(Arrays.stream(edges).toList());
 
         streetList.sort(Street::compareTo);
@@ -31,5 +36,16 @@ public class Main {
         out.println(streetList);
 
         HashSet<Intersection> intersectionHashSet = new HashSet<>(Arrays.asList(nodes));
+
+        City city = new City(streetList,intersectionHashSet);
+
+        city.printStreetsLongerThan(2);
+
+        out.println("\n\n");
+        city.generateRandomNames();
+        city.printIntersections();
+
+        out.println("\n\n");
+        out.println("\nMinimum cost of the network: " + city.returnMinimumCostPrim());
     }
 }
