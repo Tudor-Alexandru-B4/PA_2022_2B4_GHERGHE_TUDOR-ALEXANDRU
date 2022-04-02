@@ -1,61 +1,61 @@
 [ {
-  "id" : "677-92-0222",
-  "name" : "Taming a Sea Horse",
-  "location" : "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-  "author" : "Celestina Hintz MD",
-  "year" : 1969,
-  "type" : "Book"
-}, {
-  "id" : "426-35-0737",
-  "name" : "To Your Scattered Bodies Go",
-  "location" : "C:\\Users\\tudor\\Desktop\\HTML\\Lab 1",
-  "author" : "Antonetta Hilpert",
+  "id" : "044-81-1502",
+  "name" : "No Highway",
+  "location" : "C:\\Users\\tudor\\Desktop\\nothing.url",
+  "author" : "Adelaida Yost",
   "year" : 1919,
   "type" : "Book"
 }, {
-  "id" : "564-11-1815",
-  "name" : "Noli Me Tangere",
-  "location" : "https://www.emag.ro/ulei-de-floarea-soarelui-unisol-2l-5948990130251/pd/D28BNMMBM/?ref=fam#2-l",
-  "author" : "Cleopatra Mertz",
-  "year" : 1999,
+  "id" : "752-63-9935",
+  "name" : "The Heart Is a Lonely Hunter",
+  "location" : "C:\\Users\\tudor\\Desktop\\HTML\\Lab 1",
+  "author" : "Yuette Bruen",
+  "year" : 1913,
   "type" : "Book"
 }, {
-  "id" : "253-81-5122",
-  "name" : "Nine Coaches Waiting",
+  "id" : "619-15-7417",
+  "name" : "Postern of Fate",
+  "location" : "C:\\Users\\tudor\\Desktop\\ulei.url",
+  "author" : "Virgilio Cruickshank",
+  "year" : 1960,
+  "type" : "Book"
+}, {
+  "id" : "154-82-3442",
+  "name" : "Many Waters",
   "location" : "D:\\PROGRAME\\JAD",
-  "author" : "Pauletta Macejkovic",
-  "year" : 1929,
+  "author" : "Paris Bogisich",
+  "year" : 1913,
   "type" : "Book"
 }, {
-  "id" : "151-39-0936",
-  "name" : "Vile Bodies",
+  "id" : "817-30-8144",
+  "name" : "Lilies of the Field",
   "location" : "D:\\GAMES\\Riot Games\\Riot Client\\Resources",
-  "date" : "Wed Nov 14 11:24:51 EET 3849",
-  "author" : "Ashton Kassulke",
-  "pages" : 193,
+  "date" : "Wed May 20 09:15:07 EEST 3874",
+  "author" : "Ruben Roob",
+  "pages" : 180,
   "type" : "Article"
 }, {
-  "id" : "702-62-0993",
-  "name" : "A Darkling Plain",
+  "id" : "689-86-9975",
+  "name" : "That Hideous Strength",
   "location" : "C:\\Games",
-  "date" : "Wed Jan 24 01:56:47 EET 3838",
-  "author" : "Greg Collier DVM",
-  "pages" : 305,
+  "date" : "Fri Sep 25 23:54:12 EEST 3829",
+  "author" : "Shaun Wilderman",
+  "pages" : 40,
   "type" : "Article"
 }, {
-  "id" : "439-08-2858",
-  "name" : "Of Human Bondage",
-  "location" : "https://randomwordgenerator.com/picture.php",
-  "date" : "Mon Jun 30 02:16:50 EEST 3913",
-  "author" : "Haywood Lemke",
-  "pages" : 349,
+  "id" : "481-63-0141",
+  "name" : "If Not Now, When?",
+  "location" : "C:\\Users\\tudor\\Desktop\\generare.url",
+  "date" : "Sun May 21 01:00:29 EEST 3905",
+  "author" : "Dr. Felipa Wisozk",
+  "pages" : 79,
   "type" : "Article"
 }, {
-  "id" : "837-01-5037",
-  "name" : "For a Breath I Tarry",
-  "location" : "https://mail.info.uaic.ro/?_task=mail&_mbox=INBOX",
-  "date" : "Mon Jan 10 01:12:08 EET 3916",
-  "author" : "Andreas Runolfsdottir",
-  "pages" : 175,
+  "id" : "421-12-3612",
+  "name" : "Everything is Illuminated",
+  "location" : "C:\\Users\\tudor\\Desktop\\broken.url",
+  "date" : "Wed Jan 30 06:53:15 EET 3828",
+  "author" : "Miss Buford Raynor",
+  "pages" : 427,
   "type" : "Article"
 } ]
