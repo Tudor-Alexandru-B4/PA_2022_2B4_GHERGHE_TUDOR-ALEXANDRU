@@ -59,6 +59,7 @@ public class MainFrame extends JFrame {
             line = reader.nextLine();
             data = line.split(" ");
             canvas.getBoard().setTurn(Integer.parseInt(data[0]));
+            canvas.getBoard().setPlayerTurn(Boolean.parseBoolean(data[1]));
             //set stones
             for(int i = 0; i < configPanel.getRows(); i++){
                 line = reader.nextLine();
@@ -86,7 +87,7 @@ public class MainFrame extends JFrame {
             FileWriter writer = new FileWriter("target/save.txt");
             writer.write(configPanel.getRows() + " " + configPanel.getCols() + "\n");
             //write turn
-            writer.write(canvas.getBoard().getTurn() + "\n");
+            writer.write(canvas.getBoard().getTurn() + " " + canvas.getBoard().getPlayerTurn() + "\n");
             //writing stone matrix
             for(int i = 0; i < configPanel.getRows(); i++) {
                 for(int j = 0; j < configPanel.getCols(); j++){

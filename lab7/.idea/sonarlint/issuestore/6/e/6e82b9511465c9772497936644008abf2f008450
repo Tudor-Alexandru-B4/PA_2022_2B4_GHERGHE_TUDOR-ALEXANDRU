@@ -1,0 +1,13 @@
+
+t	java:S116"SRename this field "HANDSIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒçªğøÿÿÿÿ8¾ ƒ€0
+C
+java:S1170"!Make this final field static too.(ƒçªğøÿÿÿÿ8¾ ƒ€0
+u
+java:S12109"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(«®²_8¾ ƒ€0
+9
+java:S1643"Use a StringBuilder instead.(µ®àş8Æ ƒ€0
+9
+java:S1643'"Use a StringBuilder instead.(¡Ğ¤ø8Æ ƒ€0
+m
+java:S1104
+"PMake stop a static final constant or non-public and provide accessors if needed.(§Œõ¢8Æ ƒ€0

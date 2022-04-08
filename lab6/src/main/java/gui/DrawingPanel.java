@@ -1,7 +1,6 @@
 package gui;
 
 import objects.Board;
-import objects.Stick;
 import objects.Stone;
 
 import javax.imageio.ImageIO;

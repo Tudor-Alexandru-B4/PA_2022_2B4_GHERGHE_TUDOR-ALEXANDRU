@@ -1,5 +1,5 @@
 
-[
-java:S1854"9Remove this useless assignment to local variable "frame".(úž¬Âýÿÿÿÿ8×Ðâ·ü/
-L
-java:S1481"*Remove this unused "frame" local variable.(úž¬Âýÿÿÿÿ8ÛÐâ·ü/
+T
+java:S1854"9Remove this useless assignment to local variable "frame".(úž¬Âýÿÿÿÿ
+E
+java:S1481"*Remove this unused "frame" local variable.(úž¬Âýÿÿÿÿ

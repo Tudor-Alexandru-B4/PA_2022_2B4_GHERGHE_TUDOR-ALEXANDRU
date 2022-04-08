@@ -139,4 +139,12 @@ public class Board {
     public void setTurn(int turn){
         this.turn = turn;
     }
+
+    public boolean getPlayerTurn(){
+        return redTurn;
+    }
+
+    public void setPlayerTurn(boolean turn){
+        redTurn = turn;
+    }
 }
