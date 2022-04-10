@@ -1,0 +1,15 @@
+
+o
+java:S1450"YRemove the "exitButton" field and declare it as a local variable in the relevant methods.(ÔæÔ¹
+o
+java:S1450"ZRemove the "imageButton" field and declare it as a local variable in the relevant methods.(ä¶¯{
+o
+java:S1450"YRemove the "loadButton" field and declare it as a local variable in the relevant methods.(Š÷±
+t
+java:S1450"YRemove the "saveButton" field and declare it as a local variable in the relevant methods.(Ò¾íÿÿÿÿÿ
+H
+java:S1128"2Remove this unused import 'javax.imageio.ImageIO'.(‘çÔû
+T
+java:S1128"9Remove this unused import 'java.awt.image.BufferedImage'.(×íĞ‡şÿÿÿÿ
+?
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å
