@@ -24,16 +24,13 @@ public class Board {
         }
     }
 
+    public void setUpPlayers(List<Player> players){
+        for(Player it : players)
+            words.put(it, new ArrayList<>());
+    }
+
     public synchronized void addWord(Player player, String word){
-        if(!words.containsKey(player)){
-            words.put(player, new ArrayList<>());
-            words.get(player).add(word);
-            return;
-        }
-        if(!words.get(player).contains(word)){
-            words.get(player).add(word);
-            return;
-        }
+        words.get(player).add(word);
     }
 
     public void printWords(){

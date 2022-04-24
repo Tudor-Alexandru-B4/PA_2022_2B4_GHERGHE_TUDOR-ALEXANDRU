@@ -6,10 +6,12 @@ import static java.lang.System.*;
 
 public class Bag {
     private final CopyOnWriteArrayList<Tile> tiles = new CopyOnWriteArrayList<>();
+    private final Game game;
     private Random rand = new Random();
 
-    public Bag(String input){
+    public Bag(String input, Game game){
         init(input);
+        this.game = game;
     }
 
     private void init(String input){
@@ -29,13 +31,24 @@ public class Bag {
     public synchronized List<Tile> extractTiles(int howMany){
         List<Tile> extracted = new ArrayList<>();
         for(int i = 0; i < howMany; i++){
-            if(tiles.isEmpty())
+            if(tiles.isEmpty()) {
+                forceExit();
                 break;
+            }
             int index = rand.nextInt(tiles.size());
             extracted.add(tiles.get(index));
             tiles.remove(index);
         }
         return extracted;
+    }
+
+    private void forceExit(){
+        synchronized (game.blocker){
+            game.blocker.notifyAll();
+        }
+    }
+    public synchronized void returnTile(Tile tile){
+        tiles.add(tile);
     }
 
     public CopyOnWriteArrayList<Tile> getTiles(){
