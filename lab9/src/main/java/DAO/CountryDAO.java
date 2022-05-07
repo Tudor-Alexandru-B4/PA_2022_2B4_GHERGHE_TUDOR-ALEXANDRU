@@ -1,12 +1,8 @@
 package DAO;
 
-import GUI.CountryInfo;
 import others.Database;
 
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
 
 import static java.lang.System.*;
 

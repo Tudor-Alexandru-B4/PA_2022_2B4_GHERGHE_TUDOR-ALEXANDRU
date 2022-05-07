@@ -3,7 +3,6 @@ package others;
 import DAO.CityDAO;
 import DAO.ContinentDAO;
 import DAO.CountryDAO;
-import GUI.MainFrame;
 
 import java.sql.SQLException;
 
@@ -58,8 +57,6 @@ public class Main {
 //        } catch (SQLException e) {
 //            throw new RuntimeException(e);
 //        }
-
-        MainFrame frame = new MainFrame();
 
         db.closeConnection();
     }

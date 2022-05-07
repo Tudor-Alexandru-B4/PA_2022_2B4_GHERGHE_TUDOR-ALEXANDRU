@@ -1,11 +1,9 @@
 package DAO;
 
-import GUI.CountryInfo;
 import others.Database;
 
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.List;
 
 import static java.lang.System.*;
 
@@ -120,19 +118,4 @@ public class CityDAO {
 
         return(c * r);
     }
-
-    public List<CountryInfo> getCountryInfo() throws SQLException {
-        List<CountryInfo> infoList = new ArrayList<>();
-        Statement stmt = connection.createStatement();
-        ResultSet rs = stmt.executeQuery(
-                "SELECT name, latitude, longitude FROM cities"
-        );
-        while(rs.next()){
-            infoList.add(new CountryInfo(rs.getString(1), rs.getDouble(2), rs.getDouble(3)));
-        }
-        rs.close();
-        stmt.close();
-        return infoList;
-    }
-
 }
