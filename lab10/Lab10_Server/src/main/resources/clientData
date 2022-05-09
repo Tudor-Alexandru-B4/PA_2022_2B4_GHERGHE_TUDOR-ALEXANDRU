@@ -1,0 +1,12 @@
+tudor
+[ana,teo]
+{teo:Salut!,ana:Unde esti?,ana:Ce?}
+teo
+[tudor,ana]
+{tudor:Cf?,ana:Unde esti?,ana:Ce?}
+ana
+[tudor,teo]
+{teo:Salut!,tudor:Cf?}
+alex
+[]
+{}

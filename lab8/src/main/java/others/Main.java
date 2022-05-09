@@ -45,19 +45,19 @@ public class Main {
 //            throw new RuntimeException(e);
 //        }
 
-//        DataLoader dl = new DataLoader(db, "target/concap.csv");
-//        try {
-//            dl.load();
-//        } catch (Exception e) {
-//            throw new RuntimeException(e);
-//        }
+        DataLoader dl = new DataLoader(db, "target/concap.csv");
+        try {
+            dl.load();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 
-//        CityDAO city = new CityDAO(db);
-//        try {
-//            out.println(city.distanceCalc("Moscow", "London"));
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
+        CityDAO city = new CityDAO(db);
+        try {
+            out.println(city.distanceCalc("Moscow", "London"));
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
 
         MainFrame frame = new MainFrame();
 
