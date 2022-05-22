@@ -1,11 +1,15 @@
 
-`	java:S112;"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-2
-java:S1643l"Use a StringBuilder instead.(—ƒýÇ
-_
-java:S20959"DUse try-with-resources or close this "Socket" in a "finally" clause.(¦þÐöùÿÿÿÿ
 g
-java:S3008"QRename this field "LOGMSG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ûÿ€
+java:S3008"QRename this field "LOGMSG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯Ûÿ€
 U
-java:S1118
-":Add a private constructor to hide the implicit public one.(Ä¿”öýÿÿÿÿ
+java:S1118":Add a private constructor to hide the implicit public one.(Ä¿”öýÿÿÿÿ
+K
+java:S1128".Remove this unused import 'clientInfo.Client'.(‰é‡Š8ž¢¾Ð‹0
+S
+java:S1128"6Remove this unused import 'clientInfo.ClientDataBase'.(ïå‰ú8Ÿ¢¾Ð‹0
+Q
+java:S1128"/Remove this unused import 'clientInfo.Message'.(÷´«’ÿÿÿÿÿ8 ¢¾Ð‹0
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ8¡¢¾Ð‹0
+I
+java:S1128	",Remove this unused import 'java.net.Socket'.(­‡àú8¢¢¾Ð‹0

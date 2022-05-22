@@ -1,7 +1,7 @@
 
-U
-java:S1854":Remove this useless assignment to local variable "server".(­¢µŒüÿÿÿÿ
-E
-java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
-H
-java:S2440"-Remove this instantiation of "SocketCreator".(­¢µŒüÿÿÿÿ
+\
+java:S1854":Remove this useless assignment to local variable "server".(­¢µŒüÿÿÿÿ8½ÄŞ0
+L
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8¾ÄŞ0
+O
+java:S2440"-Remove this instantiation of "SocketCreator".(­¢µŒüÿÿÿÿ8¾ÄŞ0

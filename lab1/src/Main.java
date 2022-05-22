@@ -1,3 +1,5 @@
+import org.testng.annotations.Test;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -167,6 +169,11 @@ public class Main {
         }else{
             System.out.println("\n\nSubset longer than 2 not found");
         }
+    }
+
+    @Test
+    public static void callMe(){
+        System.out.println("Hello from the other lab!");
     }
 
     public static void main(String[] args) {

@@ -1,12 +1,18 @@
 ana
 [tudor,teo]
-{teo:Salut!,tudor:Cf?}
+{teo:Salut!:false,tudor:Cf?:false,tudor:Test:test::>:false,tudor:I'm using javaChat!:false,tudor:ce faci?:false}
 teo
 [tudor,ana]
-{tudor:Cf?,ana:Unde esti?}
+{tudor:Cf?:true,ana:Unde esti?:true,ana:Ce?:true,tudor:Test:test::>:false,tudor:I'm using javaChat!:false,tudor:ce faci?:false}
+test
+[tudor]
+{tudor:Test:test::>:false,tudor:I'm using javaChat!:true,tudor:ce faci?:false}
+nou
+[tudor]
+{}
 tudor
-[ana,teo]
-{teo:Salut!,ana:Unde esti?}
+[ana,teo,test,nou]
+{}
 alex
 []
 {}

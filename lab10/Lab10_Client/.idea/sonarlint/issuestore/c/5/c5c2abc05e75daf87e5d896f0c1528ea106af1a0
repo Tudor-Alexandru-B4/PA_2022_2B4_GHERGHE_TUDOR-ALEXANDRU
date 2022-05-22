@@ -1,12 +1,18 @@
 
 `	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
 `	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+v
+java:S1488J"`Immediately return this expression instead of assigning it to the temporary variable "response".(Øæó¨
 X
 java:S1163"=Refactor this code to not throw exceptions in finally blocks.(Ò‚Òéüÿÿÿÿ
 O
 java:S1143"4Remove this throw statement from this finally block.(Ò‚Òéüÿÿÿÿ
 E
 java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
-N	java:S106*"9Replace this use of System.out or System.err by a logger.(é´
-S	java:S1060"9Replace this use of System.out or System.err by a logger.(›üüÿÿÿÿ
-U	java:S1066"9Replace this use of System.out or System.err by a logger.(¤œšè8ØÿŞÅŠ0
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(ãÀïıÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(…È—Áıÿÿÿÿ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(›üüÿÿÿÿ
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(˜Š¿Ûüÿÿÿÿ
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(¤œšè

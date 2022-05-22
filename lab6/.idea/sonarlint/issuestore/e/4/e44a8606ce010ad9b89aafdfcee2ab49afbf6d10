@@ -1,5 +1,13 @@
 
+7
+java:S1220""Move this file to a named package.8®ãï²Ž0
 T
-java:S1854"9Remove this useless assignment to local variable "frame".(úž¬Âýÿÿÿÿ
+java:S1854
+"9Remove this useless assignment to local variable "frame".(úž¬Âýÿÿÿÿ
 E
-java:S1481"*Remove this unused "frame" local variable.(úž¬Âýÿÿÿÿ
+java:S1481
+"*Remove this unused "frame" local variable.(úž¬Âýÿÿÿÿ
+J
+java:S1128"(Remove this unused import 'javax.swing'.(Ìí¿Üüÿÿÿÿ8Ìãï²Ž0
+B
+java:S1128"%Remove this unused import 'java.awt'.(ï´µ©8Îãï²Ž0

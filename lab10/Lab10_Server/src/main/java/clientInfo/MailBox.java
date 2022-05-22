@@ -14,7 +14,7 @@ public class MailBox {
     }
 
     public String readMessages(boolean readAll, boolean deleteRead){
-        String toSend = "";
+        String toSend = "Messages:\n";
         for(Message it : messages){
             if(!it.getRead() || readAll) {
                 toSend += it;
@@ -24,15 +24,19 @@ public class MailBox {
         if(deleteRead){
             deleteReadMessages();
         }
+        if(toSend.equals("Messages:\n"))
+            toSend = "WoW sUcH eMpTy ^_^";
         return toSend;
     }
 
     public void deleteReadMessages(){
+        List<Message> tempMsg = new ArrayList<>();
         for(int i = 0; i < messages.size(); i++){
-            if(messages.get(i).getRead()){
-                messages.remove(i);
+            if(!messages.get(i).getRead()){
+                tempMsg.add(messages.get(i));
             }
         }
+        messages = tempMsg;
     }
 
     public List<Message> getMessages(){

@@ -1,42 +1,45 @@
 
-M	java:S106"9Replace this use of System.out or System.err by a logger.(¨×½
-D
-java:S2140	")Use "java.util.Random.nextInt()" instead.(Š“’½úÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(³‡è­ıÿÿÿÿ
-m
-java:S3776*"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ãÏ ÷ÿÿÿÿÿ
-N	java:S106/"9Replace this use of System.out or System.err by a logger.(Í•šİ
-N	java:S1067"9Replace this use of System.out or System.err by a logger.(Î”­ä
-N	java:S106?"9Replace this use of System.out or System.err by a logger.(‡ÊÄË
-N	java:S106F"9Replace this use of System.out or System.err by a logger.(ªÜßŒ
-V	java:S125P"<This block of commented-out lines of code should be removed.(—Ë¦‹úÿÿÿÿ
-6
-java:S2129U" Remove this "String" constructor(÷Ô¿ğ
-9
-java:S2119W"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
-N	java:S106]"9Replace this use of System.out or System.err by a logger.(èóÒµ
-S	java:S106_"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ
-B
-java:S1125o"'Remove the unnecessary boolean literal.(ö‡÷ÿÿÿÿÿ
-N	java:S106z"9Replace this use of System.out or System.err by a logger.(Æêâ©
-S	java:S106|"9Replace this use of System.out or System.err by a logger.(Ùò­›ùÿÿÿÿ
-S	java:S106~"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
-T	java:S106"9Replace this use of System.out or System.err by a logger.(ÃÄ¤Èøÿÿÿÿ
-d	java:S100Š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ôŠ²
-i
-java:S3776Š"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(‰ôŠ²
->
-java:S1659""Declare "imax" on a separate line.(á¾‹¶şÿÿÿÿ
-O	java:S106£"9Replace this use of System.out or System.err by a logger.(»¸¾Ì
-T	java:S106¥"9Replace this use of System.out or System.err by a logger.(ğìŒ¡ùÿÿÿÿ
-T	java:S106¨"9Replace this use of System.out or System.err by a logger.(×ÎÂ¬ùÿÿÿÿ
 t
-java:S2293B"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥ÂÁˆıÿÿÿÿ
+java:S2293D"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥ÂÁˆıÿÿÿÿ
 t
-java:S2293k"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒØÌıÿÿÿÿ
+java:S2293m"YReplace the type specification in this constructor call with the diamond operator ("<>").(ƒØÌıÿÿÿÿ
 o
-java:S2293m"YReplace the type specification in this constructor call with the diamond operator ("<>").(öõÀ®
+java:S2293o"YReplace the type specification in this constructor call with the diamond operator ("<>").(öõÀ®
 A
-java:S5411•"*Use the primitive boolean expression here.(äÑÿ¢
+java:S5411—"*Use the primitive boolean expression here.(äÑÿ¢
 X
-java:S4973–"<Strings and Boxed types should be compared using "equals()".(¿ßíÌşÿÿÿÿ
+java:S4973˜"<Strings and Boxed types should be compared using "equals()".(¿ßíÌşÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+M	java:S106	"9Replace this use of System.out or System.err by a logger.(¨×½
+D
+java:S2140")Use "java.util.Random.nextInt()" instead.(Š“’½úÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(³‡è­ıÿÿÿÿ
+m
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(ãÏ ÷ÿÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(Í•šİ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(Î”­ä
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(‡ÊÄË
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(ªÜßŒ
+V	java:S125R"<This block of commented-out lines of code should be removed.(—Ë¦‹úÿÿÿÿ
+6
+java:S2129W" Remove this "String" constructor(÷Ô¿ğ
+9
+java:S2119Y"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
+N	java:S106_"9Replace this use of System.out or System.err by a logger.(èóÒµ
+S	java:S106a"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ
+B
+java:S1125q"'Remove the unnecessary boolean literal.(ö‡÷ÿÿÿÿÿ
+N	java:S106|"9Replace this use of System.out or System.err by a logger.(Æêâ©
+S	java:S106~"9Replace this use of System.out or System.err by a logger.(Ùò­›ùÿÿÿÿ
+T	java:S106€"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
+T	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(ÃÄ¤Èøÿÿÿÿ
+d	java:S100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ôŠ²
+i
+java:S3776Œ"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(‰ôŠ²
+>
+java:S1659""Declare "imax" on a separate line.(á¾‹¶şÿÿÿÿ
+O	java:S106¥"9Replace this use of System.out or System.err by a logger.(»¸¾Ì
+T	java:S106§"9Replace this use of System.out or System.err by a logger.(ğìŒ¡ùÿÿÿÿ
+T	java:S106ª"9Replace this use of System.out or System.err by a logger.(×ÎÂ¬ùÿÿÿÿ
+N	java:S106°"9Replace this use of System.out or System.err by a logger.(õ×»_

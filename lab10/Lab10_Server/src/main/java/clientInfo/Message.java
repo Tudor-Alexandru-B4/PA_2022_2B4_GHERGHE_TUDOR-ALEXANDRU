@@ -14,11 +14,11 @@ public class Message {
 
     @Override
     public String toString() {
-        return "From: " + nameSender + "    Mesage:" + message + "      ";
+        return "From: " + nameSender + "\n    Message: " + message + "\n";
     }
 
     public String forSaving(){
-        return nameSender + ":" + message;
+        return nameSender + ":" + message + ":" + read;
     }
 
     public boolean getRead() {

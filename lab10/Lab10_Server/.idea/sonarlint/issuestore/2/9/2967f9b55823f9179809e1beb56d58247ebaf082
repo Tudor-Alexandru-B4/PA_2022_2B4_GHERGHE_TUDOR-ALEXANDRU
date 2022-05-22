@@ -1,0 +1,10 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8·µîÎ‹0
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›ÏúÒ
+f
+java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(¦şĞöùÿÿÿÿ8»µîÎ‹0
+\
+java:S1118
+":Add a private constructor to hide the implicit public one.(ßû½ÿÿÿÿÿÿ8™óìÎ‹0
+]
+java:S1172"@Remove these unused method parameters "clientSocket", "command".(‚íÛË8™óìÎ‹0

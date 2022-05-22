@@ -91,7 +91,15 @@ public class ClientDataBase {
                     String[] messages = messagesLine.split(",");
                     for(int i = 0; i < messages.length; i++){
                         String[] data = messages[i].split(":");
-                        Message message = new Message(data[0], data[1]);
+                        String msg = "";
+                        for(int j = 1; j < data.length - 1; j++){
+                            msg = msg + data[j];
+                            if(j < data.length - 2)
+                                msg = msg + ":";
+                        }
+                        Message message = new Message(data[0], msg);
+                        if(Boolean.parseBoolean(data[2]))
+                            message.setRead();
                         client.getMailBox().receiveMessage(message);
                     }
                 }

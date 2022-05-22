@@ -1,6 +1,4 @@
 
-9
-java:S1643"Use a StringBuilder instead.(¾ä¤Ê8€íÈŠ0
+2
+java:S1643"Use a StringBuilder instead.(¾ä¤Ê
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(À°ÿÑþÿÿÿÿ
->
-java:S5413!")Verify that "remove()" is used correctly.(ÿ…Ú

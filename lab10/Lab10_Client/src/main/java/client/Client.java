@@ -27,25 +27,65 @@ public class Client {
     }
 
     private void clientServerCommunication(){
-        try {
-            while (true){
-                //Sending a request
-                PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
-                String request = readRequest();
-                writer.println(request);
+        while (true){
+            //Sending a request
+            String request = sendRequest();
 
-                //Receiving a response
-                BufferedReader reader = new BufferedReader(
-                        new InputStreamReader(socket.getInputStream())
-                );
-                String response = reader.readLine();
-                System.out.println("Server response: " + response);
-                if(request.equals("exit") || response.equals("Server stopping ...")){
-                    break;
+            //Receiving a response
+            String response = "";
+            System.out.print("Server response: ");
+            try {
+                if(request.substring(0,4).equals("read"))
+                    receiveMultipleResponses();
+                else{
+                    response = receiveOneResponse();
+                    System.out.println(response);
                 }
+            }catch (StringIndexOutOfBoundsException e){
+                System.out.println("Disconnected from the server!");
+                System.exit(0);
             }
+
+            if(request.equals("exit") || response.equals("Server stopping ...")){
+                break;
+            }
+        }
+    }
+
+    private String sendRequest(){
+        PrintWriter writer = null;
+        try {
+            writer = new PrintWriter(socket.getOutputStream(), true);
+            String request = readRequest();
+            writer.println(request);
+            writer.flush();
+            return request;
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private String receiveOneResponse(){
+        BufferedReader reader = null;
+        try {
+            reader = new BufferedReader(
+                    new InputStreamReader(socket.getInputStream())
+            );
+            String response = reader.readLine();
+            return response;
         } catch (IOException e) {
             System.out.println("Server closed!");
+            System.exit(0);
+        }
+        return null;
+    }
+
+    private void receiveMultipleResponses(){
+        while (true){
+            String response = receiveOneResponse();
+            if(response.equals("4682_-_StOp_-_159753"))
+                break;
+            System.out.println(response);
         }
     }
 
