@@ -1,12 +1,12 @@
 
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ä”òª
-k
-java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Û˜­W8°ª¢ƒ0
+b
+java:S20951"GUse try-with-resources or close this "Statement" in a "finally" clause.(õ½ÛØşÿÿÿÿ
 i
 java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(õ½ÛØşÿÿÿÿ8–¢ƒ0
 b
-java:S20951"GUse try-with-resources or close this "Statement" in a "finally" clause.(õ½ÛØşÿÿÿÿ
-b
 java:S2095&"GUse try-with-resources or close this "Statement" in a "finally" clause.(õ½ÛØşÿÿÿÿ
+k
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Û˜­W8°ª¢ƒ0
 B
 java:S3010"'Remove this assignment of "connection".(ÀÇªøÿÿÿÿ

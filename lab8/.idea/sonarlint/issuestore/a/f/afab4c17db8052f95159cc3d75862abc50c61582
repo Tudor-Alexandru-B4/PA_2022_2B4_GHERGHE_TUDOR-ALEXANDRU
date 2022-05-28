@@ -1,4 +1,7 @@
 
+b	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(µ¨”‚8••å0
+g
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(’³Ñşÿÿÿÿ8¦Ÿ•å0
 @
 java:S1197"*Move the array designators [] to the type.(æœšÉ
 V	java:S125"<This block of commented-out lines of code should be removed.(œ‡‘ˆùÿÿÿÿ

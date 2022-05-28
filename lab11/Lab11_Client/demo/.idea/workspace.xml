@@ -1,103 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="db43c1e3-315b-4d66-92e5-baec3eafd63f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../lab1/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/0/f/0f2cbf9a29cfc0ec027959f725118975c49fd223" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/3/4/34fa184e503e23b90cd0ac39e3e391a8072f4c6d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/4/1/4191e68d5ab7e4a942b07de881c34275c4c5cd61" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/b/2/b2db5b07ecf26823883862e356436994195c50fa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/c/c/ccfaf38b6f310e9d142c3ac0c8869f3443097213" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/d/5/d588a06b89cb98038019ac48147a3277a2278c35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/d/7/d7fdf9b028838771eef878fe52a7ea28bda0fc5b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/e/6/e6e74a9ef80addaa88bc430e5d0605afc0a7b124" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab1/.idea/sonarlint/issuestore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab1/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab1/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab1/lab1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab1/lab1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab1/out/production/lab1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab1/out/production/lab1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab1/src/hi_UwU/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Client/.idea/sonarlint/issuestore/c/5/c5c2abc05e75daf87e5d896f0c1528ea106af1a0" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Client/.idea/sonarlint/issuestore/c/5/c5c2abc05e75daf87e5d896f0c1528ea106af1a0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Client/src/main/java/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Client/src/main/java/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Client/target/classes/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Client/target/classes/client/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/3/6/3663ccfe638fca90ed30b57dc05fad7189a2e2c8" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/3/6/3663ccfe638fca90ed30b57dc05fad7189a2e2c8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/4/7/47c355eadfbb8d158aa5c0b5d1b5939a425bdf00" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/4/7/47c355eadfbb8d158aa5c0b5d1b5939a425bdf00" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/6/9/695a35b2931e130844b482951cdab2a2776fef00" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/6/9/695a35b2931e130844b482951cdab2a2776fef00" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/9/2/924468ac1c000355db9de07b81b4250f96dcd58e" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/9/2/924468ac1c000355db9de07b81b4250f96dcd58e" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/d/6/d62a16848c6ef38c37f08fba08399afc7d33f0e8" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/d/6/d62a16848c6ef38c37f08fba08399afc7d33f0e8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/f/d/fd82d33aa1aaa2105b29cda075c6a362f605c49d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/f/d/fd82d33aa1aaa2105b29cda075c6a362f605c49d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/src/main/java/clientInfo/ClientDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/src/main/java/clientInfo/ClientDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/src/main/java/clientInfo/MailBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/src/main/java/clientInfo/MailBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/src/main/java/clientInfo/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/src/main/java/clientInfo/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/src/main/java/server/ClientSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/src/main/java/server/ClientSocket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/src/main/java/server/ServerCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/src/main/java/server/ServerCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/src/main/resources/clientData" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/src/main/resources/clientData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/target/classes/clientData" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/target/classes/clientData" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/target/classes/clientInfo/ClientDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/target/classes/clientInfo/ClientDataBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/target/classes/clientInfo/MailBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/target/classes/clientInfo/MailBox.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/target/classes/clientInfo/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/target/classes/clientInfo/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/target/classes/server/ClientSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/target/classes/server/ClientSocket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab10/Lab10_Server/target/classes/server/ServerCommands.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab10/Lab10_Server/target/classes/server/ServerCommands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab2/.idea/sonarlint/issuestore/9/b/9bc3bead8a01f827feae68ffdee1e38a7a4fef1c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab2/.idea/sonarlint/issuestore/9/b/9bc3bead8a01f827feae68ffdee1e38a7a4fef1c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab2/.idea/sonarlint/issuestore/a/1/a14b60107befddc7bfc4e1865b67122f6d1cce23" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab2/.idea/sonarlint/issuestore/a/1/a14b60107befddc7bfc4e1865b67122f6d1cce23" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab2/.idea/sonarlint/issuestore/b/0/b0af91fe027736c869d997b59d36cfee1089a05d" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab2/.idea/sonarlint/issuestore/b/0/b0af91fe027736c869d997b59d36cfee1089a05d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab2/.idea/sonarlint/issuestore/e/d/eddeb09cf965d4a41ce8d871cca1755ca32172d8" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab2/.idea/sonarlint/issuestore/e/d/eddeb09cf965d4a41ce8d871cca1755ca32172d8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab2/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab2/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab4/.idea/sonarlint/issuestore/3/c/3ce0467ac26437b5c7f4c0c74bd04e4426d15e64" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab4/.idea/sonarlint/issuestore/3/c/3ce0467ac26437b5c7f4c0c74bd04e4426d15e64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab4/.idea/sonarlint/issuestore/9/0/905b7669693a58691cc619194d5e76ef402d8de8" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab4/.idea/sonarlint/issuestore/9/0/905b7669693a58691cc619194d5e76ef402d8de8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab4/.idea/sonarlint/issuestore/a/7/a723aa17b7f965397851b9a6407c416e2a3b246f" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab4/.idea/sonarlint/issuestore/a/7/a723aa17b7f965397851b9a6407c416e2a3b246f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab4/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab4/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab4/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab4/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab6/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab6/.idea/sonarlint/issuestore/e/4/e44a8606ce010ad9b89aafdfcee2ab49afbf6d10" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../lab6/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab6/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="1d3422d6-38c5-4a3d-9cf7-e3cfc8e6744c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab11client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab11client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab11client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab11client/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab11client/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab11client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab11client/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab11client/src/main/java/client/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab11client/src/main/java/com/example/lab11client/Lab11clientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab11client/src/main/java/services/MyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab11client/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab11client/src/test/java/com/example/lab11client/Lab11clientApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab11_Server/.idea/Lab11_Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab11_Server/.idea/Lab11_Server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab11_Server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab11_Server/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab11_Server/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab11_Server/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab11_Server/Lab_11_cald/src/main/java/controller/PersonsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab11_Server/Lab_11_cald/src/main/java/model/PersonsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab8/.idea/sonarlint/issuestore/4/5/459db2aa4a14a44c594c62c44406c03f6be42dae" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab8/.idea/sonarlint/issuestore/4/5/459db2aa4a14a44c594c62c44406c03f6be42dae" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab8/.idea/sonarlint/issuestore/5/3/53bdaec156f1fe5615b92455142d50c747d6eb58" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab8/.idea/sonarlint/issuestore/5/3/53bdaec156f1fe5615b92455142d50c747d6eb58" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab8/.idea/sonarlint/issuestore/8/e/8e9e633ad8912378afd3c92f25409e82f640cb25" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab8/.idea/sonarlint/issuestore/8/e/8e9e633ad8912378afd3c92f25409e82f640cb25" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab8/.idea/sonarlint/issuestore/a/f/afab4c17db8052f95159cc3d75862abc50c61582" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab8/.idea/sonarlint/issuestore/a/f/afab4c17db8052f95159cc3d75862abc50c61582" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab8/.idea/sonarlint/issuestore/d/f/dff82a734755460ef22a3c8652554543d40cb7bc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab8/.idea/sonarlint/issuestore/d/f/dff82a734755460ef22a3c8652554543d40cb7bc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../lab8/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lab8/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="29W4CJLIdtjtoOsctBLGFf0ix9s" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29WqThtueOLUdndcooPZksUur29" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/tudor/PA_2022_2B4_GHERGHE_TUDOR-ALEXANDRU/lab11/Lab11_Server",
+    "spring.configuration.checksum": "fe01ce2a7fbac8fafaed7c982a04e229"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="db43c1e3-315b-4d66-92e5-baec3eafd63f" name="Changes" comment="" />
-      <created>1653215381969</created>
+      <changelist id="1d3422d6-38c5-4a3d-9cf7-e3cfc8e6744c" name="Changes" comment="" />
+      <created>1653239199665</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653215381969</updated>
-      <workItem from="1653215383352" duration="134000" />
-      <workItem from="1653215528612" duration="115000" />
+      <updated>1653239199665</updated>
+      <workItem from="1653239201085" duration="1176000" />
+      <workItem from="1653241509830" duration="4629000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

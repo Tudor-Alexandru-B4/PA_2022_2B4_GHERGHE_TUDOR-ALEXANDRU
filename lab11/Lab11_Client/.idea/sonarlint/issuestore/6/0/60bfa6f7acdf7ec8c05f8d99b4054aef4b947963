@@ -1,0 +1,16 @@
+
+0
+java:S1220""Move this file to a named package.
+N	java:S106"9Replace this use of System.out or System.err by a logger.(×·ïæ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ð¹¬°
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ä¹Òæ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ËšÆßùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ä—„íûÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(ãÙî_
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(àíñÚ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(æòÃú
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(· õ¸
+S	java:S106."9Replace this use of System.out or System.err by a logger.(”áý˜ûÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(Ä—„íûÿÿÿÿ
+J
+java:S1128"/Remove this unused import 'classes.Friendship'.( úêµþÿÿÿÿ
